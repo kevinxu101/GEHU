@@ -1,0 +1,442 @@
+video {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+      
+  .showcase{
+    position: relative;
+    color: #fff;
+    z-index: 3;
+    height: 100vh;
+  }
+  
+  .footer{
+    margin: 0;
+    padding: 0;
+    height: 11vh;
+    background-color: #091833;
+  }
+  
+  .homepage-header h1{
+    font-size: 5em;
+    font-weight: 600;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  
+  .homepage-header p{
+    font-weight: 200;
+    font-size: 1.5em;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: -25px;
+  }
+  
+  .homepage-header button{
+    border-radius: 15px;
+    background-color: #C732FF;
+    color: #efefef;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: .65em;
+  }
+  
+  #footer-title{
+    color:white;
+    font-weight: 600;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 28px;
+    font-size: 2.2em;
+  }
+  
+  .footer-spacer{
+    margin-left:-35px;
+  }
+  .social-icons i{
+    color: white;
+    font-size: 1em;
+    
+  }
+
+  .contact-us-social-icons{
+    color: white;
+    font-size: 3em;
+    
+  }
+
+  .card-class{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.1em;
+    color:#666666;
+
+  }
+  
+  .peri-header{
+    font-family: 'Open Sans', sans-serif;
+    color:#666666;
+  }
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+
+  .navbar_css {
+    height: 11vh;
+  }
+
+  hr {
+    border: none;
+  }
+
+  hr:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .equipment-header{
+    font-family: 'Open Sans', sans-serif;
+    color:#777777;
+    font-size: 1.4em;
+  }
+
+  .year-highlight{
+    color: #444444;
+    font-weight: 600;
+    margin-left:5px;
+  }
+
+  .equipment-title-header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7em;
+    font-weight: bold;
+    color: black;
+  }
+
+  .specific-equipment-header{
+    font-size: 1.1em;
+    color:#777777;
+
+  }
+
+  .single-equipment-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:500;
+    font-size: 1.1em;
+    color:black;
+  }
+
+  #single-equipment-description{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:500;
+    font-size: 1em;
+    color:black;
+  }
+
+  .navbar_css{
+    background-color: #091833;
+  }
+  .active a{
+    color: #C732FF !important;
+  }
+
+  ul.nav a:hover { 
+    color: #8020A4 !important;
+   }
+
+   
+  .navbar-menu-css{
+    font-family: 'Comfortaa', cursive;
+
+  }
+
+
+
+  .local-shop-card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color:black;
+  }
+
+  .contact-us-title{
+    color:white;
+    font-weight: 200;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 50px;
+    font-size: 6em;
+    width: 70;
+  }
+
+@media (max-width: 575.98px) {
+  #footer-title{
+    font-weight: 600;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 28px;
+    font-size: 1em;
+  }
+
+  .footer img{
+    width: 100px;
+
+  }
+
+  #header-img{
+    margin-top:-100px;
+  }
+
+  .homepage-header h1{
+    margin-top:10px;
+    margin-left:40px;
+    font-size: 3.5em;
+    font-weight: 600;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+
+  .homepage-header button{
+    border-radius: 15px;
+    background-color: #C732FF;
+    color: #efefef;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: .65em;
+    margin-left:35px;
+
+  }
+
+  .homepage-header p{
+    font-weight: 200;
+    font-size: 1.5em;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: -25px;
+    margin-left:40px;
+  }
+  .peri-container{
+    overflow-x: hidden;
+}
+
+}
+@media (min-width: 320px) {
+
+  .homepage-header h1{
+  font-size: 2.4em;
+  font-weight: 600;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.homepage-header p{
+  font-weight: 200;
+  font-size: 1.2em;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.footer-spacer{
+  margin-left:-25px;
+}
+
+.card-class{
+  position:relative;
+  top:50%;
+  left:50%;
+  transform: translate(-30%, 0%);
+  margin-bottom: 150px;
+  height: 800px;
+  overflow-x:hidden;
+}
+
+.local-shops-card-class{
+  position:relative;
+  top:50%;
+  left:50%;
+  transform: translate(-49%, 0%);
+  margin-bottom: 150px;
+  height: 800px;
+  overflow-x:hidden;
+}
+
+.contact-us-title{
+  color:white;
+  font-weight: 200;
+  font-family: 'Chakra Petch', sans-serif;
+  margin-top: 50px;
+  font-size: 4em;
+  width: 70;
+}
+
+.contact-us-social-icons{
+  color: white;
+  font-size: 1.5em;
+  
+}
+
+}
+@media(max-width:450px){
+  .body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .homepage-header p{
+    font-weight: 200;
+    font-size: 1em;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: -15px;
+  }
+
+  .card-class{
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-30%, 0%);
+    margin-bottom: 150px;
+    height: 800px;
+    overflow-x:hidden;
+  }
+
+  .navbar_css{
+    font-size: 2vw;
+    white-space: nowrap;
+    
+    display:inline-block;
+  }
+  .navbar-nav { 
+    display: flex; flex-flow: row nowrap;
+   }
+
+   #single-equipment-description{
+    text-align: center;
+
+   }
+
+ 
+
+}
+
+@media (min-width: 576px) {
+    .homepage-header h1{
+    font-size: 3.7em;
+    font-weight: 600;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+
+  .homepage-header p{
+    font-weight: 200;
+    font-size: 1.5em;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+
+  .footer-spacer{
+    margin-left:-25px;
+  }
+
+  
+ }
+
+@media (min-width: 768px) { 
+  #footer-spacer{
+    margin-left:55px;
+  }
+
+  .card-class{
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-48%, 0%);
+    margin-bottom: 150px;
+    height: 800px;
+    overflow-x:hidden;
+  }
+  .navbar-nav { 
+    display: flex; flex-flow: row nowrap;
+   }
+
+   .contact-us-title{
+    color:white;
+    font-weight: 200;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 100px;
+    font-size: 2.7em;
+    width: 70;
+  }
+  
+  .contact-us-social-icons{
+    color: white;
+    font-size: 1.5em;
+    
+  }
+
+ }
+
+
+@media (min-width: 992px) {
+  #footer-spacer{
+    margin-left:40px;
+  }
+
+
+
+ }
+
+ @media (min-width: 1050px) { 
+  #footer-spacer{
+    margin-left:-50px;
+  }
+
+  .card-class{
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-45%, 0%);
+    margin-bottom: 150px;
+    height: 800px;
+    overflow-x:hidden;
+  }
+  
+  .contact-us-title{
+    color:white;
+    font-weight: 200;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 150px;
+    font-size: 5em;
+    width: 70;
+  }
+  
+  .contact-us-social-icons{
+    color: white;
+    font-size: 3em;
+    
+  }
+}
+
+@media (min-width: 1440px) { 
+  #footer-spacer{
+    margin-left:-10px;
+  }
+
+  body{
+    overflow-y: hidden;
+
+  }
+}
+
+
+@media (min-width: 1920px) { 
+  #footer-spacer{
+    margin-left:-40px;
+  }
+}
+
+@media (min-width: 2500px) { 
+  #footer-spacer{
+    margin-left:-95px;
+  }
+}

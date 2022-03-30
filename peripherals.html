@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&family=Comfortaa:wght@700&family=Open+Sans&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <style>
+    .navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+
+    .navbar_css {
+      height: 11vh;
+    }
+
+    hr {
+      border: none;
+    }
+
+    hr:before {
+      content: "";
+      display: block;
+      position: absolute;
+      right: 0;
+      left: 0;
+      max-width: 100%;
+      width: 100%;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar sticky-top navbar-expand  navbar_css d-flex justify-content-between">
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class=" nav navbar-nav navbar-center navbar-menu-css">
+        <li class="nav-item">
+          <a class="nav-link px-4" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link px-4" href="peripherals.html">PERIPHERALS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" href="#">LOCAL SHOPS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" href="#">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container peri-container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center pt-5 peri-header">CATEGORIES</h2>
+        <hr class="mb-5" />
+      </div>
+      <div class="row no-gutter card-class">
+        <div class="col">
+          <a href="top_mice.html" class="text-reset text-decoration-none">
+          <div class="card border-0 mb-3 align-items-center" style="width: 13rem; background-color: #EFEFEF;">
+            <img src="img/logos/rsz_mice.png" class="mx-auto d-block pt-5" width="80" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center pb-5 mt-2">MICE</p>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col">
+          <div class="card border-0 mb-3" style="width: 13rem; background-color: #EFEFEF;">
+            <img src="img/logos/keyboard.png" class="mx-auto d-block pt-5" width="120" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center pb-5 mt-2">KEYBOARD</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 mb-3" style="width: 13rem; background-color: #EFEFEF;">
+            <img src="img/logos/headset.png" class="mx-auto d-block pt-5" width="85" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center pb-5 mt-2">HEADSET</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 mb-3" style="width: 13rem; background-color: #EFEFEF;">
+            <img src="img/logos/monitor.png" class="mx-auto d-block pt-5" width="80" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center pb-5 mt-2">MONITOR</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fixed-bottom no-gutter">
+    <div class="footer">
+      <div class="row g-0">
+        <div class="col-3 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+          <img src="img/logos/logo_small.png" width="130px">
+
+        </div>
+        <div id="footer-spacer" class="col-8 col-sm-11 col-md-3 col-lg-2 col-xl-2">
+          <div class="d-flex flex-column">
+            <p id="footer-title">GEGU PH</p>
+            <div class="d-flex" style="margin-top: -25px;">
+              <div class="social-icons">
+                <i class="fa fa-facebook-official" aria-hidden="true" style="margin-right: 5px;"></i>
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  </div>
+
+
+</body>
+
+</html>
