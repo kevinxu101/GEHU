@@ -17,35 +17,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&family=Comfortaa:wght@700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
-
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&family=Comfortaa:wght@700&family=Open+Sans&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
   <style>
-    .navbar-nav.navbar-center {
-      position: absolute;
-      left: 50%;
-      transform: translatex(-50%);
-    }
 
-    .navbar_css {
-      height: 11vh;
-    }
-
-    hr {
-      border: none;
-    }
-
-    hr:before {
-      content: "";
-      display: block;
-      position: absolute;
-      right: 0;
-      left: 0;
-      max-width: 100%;
-      width: 100%;
-      border: 1px solid black;
-    }
   </style>
 </head>
 
@@ -58,10 +36,10 @@
         <li class="nav-item">
           <a class="nav-link px-4" href="index.html">HOME</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link px-4" href="peripherals.html">PERIPHERALS</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link px-4" href="local-shops.html">LOCAL SHOPS</a>
         </li>
         <li class="nav-item">
@@ -74,30 +52,41 @@
   <div class="container peri-container">
     <div class="row">
       <div class="col-12">
-        <h2 class="text-center pt-5 pb-5 specific-equipment-header">PRODUCT GUIDE</h2>
+        <h2 class="text-center pt-5 local-shop-card-title pb-4">WHERE TO BUY</h2>
         <hr class="mb-5" />
-
-        <p class="text-center single-equipment-title">Logitech G502 Lightspeed</p>
       </div>
-      <div class="row no-gutter">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <div class="single-equipment">
-                <img src="img/equipments/2.png" class="mx-auto d-block pt-5" width="23%" alt="...">
+      <div class="row no-gutter local-shops-card-class" >
+        <div class="col">
+          <a href="https://easypc.com.ph/" class="text-reset text-decoration-none">
+          <div class="card border-0 mb-3 " style="width: 22rem;height: 20rem; background-color: #EFEFEF;">
+            <div class="card-body text-center  pt-5">
+              <p class="card-text text-center justify-content-center align-self-center pt-5 mt-2">EASYPC</p>
+              <img src="img/logos/websiteicon.png" class="pt-3" width="35">
             </div>
+          </div>
+        </a>
         </div>
-         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <p class="mx-auto pt-5" id="single-equipment-description">
-                Sensor: Logitech Hero 16KDPI: 16,000<br/>
-                IPS: >400 Acceleration: > 40g<br/>
-                Interface: USB Type-A dongle or wired<br/>
-                Ergonomics: Right-handed<br/>
-                Programmable Buttons: 11<br/>
-                Weight: 4.02-4.59 ounces (114-130g)<br/>
-                Dimensions (LxWxH): 5.20 x 2.95 x 1.57 inches <br/>
-            </p>
-         </div>
+        <div class="col">
+            <a href="https://pcx.com.ph/" class="text-reset text-decoration-none">
+            <div class="card border-0 mb-3 align-items-center local-shop-card-body" style="width: 22rem;height: 20rem; background-color: #EFEFEF;">
+              <div class="card-body text-center  pt-5">
+                <p class="card-text text-center justify-content-center align-self-center pt-5 mt-2">PC EXPRESS</p>
+                <img src="img/logos/websiteicon.png" class="pt-3" width="35">
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col">
+            <a href="https://dynaquestpc.com/" class="text-reset text-decoration-none">
+            <div class="card border-0 mb-3 align-items-center local-shop-card-body" style="width: 22rem;height: 20rem; background-color: #EFEFEF;">
+              <div class="card-body text-center  pt-5">
+                <p class="card-text text-center justify-content-center align-self-center pt-5 mt-2">DYNAQUEST</p>
+                <img src="img/logos/websiteicon.png" class="pt-3" width="35">
+              </div>
+            </div>
+          </a>
+          </div>
 
-  
       </div>
     </div>
   </div>
